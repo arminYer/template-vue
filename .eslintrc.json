@@ -1,0 +1,27 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },   
+  "extends": [
+    "plugin:vue/vue3-recommended",
+    "eslint:recommended",
+    "@vue/typescript/recommended"
+  ],
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser",    
+    "ecmaVersion": 2021
+  },
+  "rules": { 
+      "no-console": 0,     
+      "max-len": [2, { "code": 80 }],
+      "indent": [2, 2],
+      "semi": [2, "always"],
+      "comma-dangle": [2, "always-multiline"],
+      "quotes": [2, "double"],
+      "object-curly-spacing": [2, "always"],
+      "linebreak-style": 0
+  }
+}

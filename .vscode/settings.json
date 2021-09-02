@@ -1,0 +1,16 @@
+{
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "javascript": "javascriptreact",
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": [    
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact",
+    "vue"]
+ }
