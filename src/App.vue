@@ -5,9 +5,6 @@
       alt="Vue logo"
       src="./assets/logo.png"
     >
-    <HelloWorld 
-      msg="Template"
-    />
     <div id="nav">
       <router-link to="/home">
         Home
