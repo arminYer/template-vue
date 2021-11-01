@@ -11,6 +11,8 @@
     "lib": ["esnext", "dom"],
     "types": [
       "unplugin-icons/types/vue",
+      "@intlify/vite-plugin-vue-i18n/client",
+      "vite-plugin-vue-layouts/client"      
     ]      
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "components.d.ts", "auto-imports.d.ts"]

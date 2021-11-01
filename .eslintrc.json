@@ -15,13 +15,22 @@
     "ecmaVersion": 2021
   },
   "rules": { 
-      "no-console": 0,     
-      "max-len": [2, { "code": 80 }],
-      "indent": [2, 2],
-      "semi": [2, "always"],
-      "comma-dangle": [2, "always-multiline"],
-      "quotes": [2, "double"],
-      "object-curly-spacing": [2, "always"],
-      "linebreak-style": 0
+    "no-console": 0,     
+    "max-len": [2, { "code": 80, "ignoreStrings": true }],
+    "indent": [2, 2],
+    "semi": [2, "always"],
+    "comma-dangle": [2, "always-multiline"],
+    "quotes": [2, "double"],
+    "object-curly-spacing": [2, "always"],
+    "linebreak-style": 0
+},
+"overrides": [
+  {
+    "files": ["*.vue"],
+    "rules": {
+      "max-len": "off",
+      "no-undef": "off"
+    }
   }
+]  
 }

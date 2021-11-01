@@ -2,18 +2,22 @@
   "name": "template-vue",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --https --host 0.0.0.0",
     "build": "vue-tsc --noEmit && vite build",
+    "build:deploy": "vite build",
     "serve": "vite preview"
   },
   "dependencies": {
     "@vueuse/core": "^6.0.0",
     "pinia": "^2.0.0-rc.6",
+    "villus": "^1.0.0",
     "vue": "^3.0.5",
+    "vue-i18n": "^9.1.9",
     "vue-router": "^4.0.11"
   },
   "devDependencies": {
     "@iconify/json": "^1.1.390",
+    "@intlify/vite-plugin-vue-i18n": "^2.5.0",
     "@types/node": "^16.6.2",
     "@typescript-eslint/eslint-plugin": "^4.29.2",
     "@typescript-eslint/parser": "^4.29.2",
@@ -26,8 +30,12 @@
     "unplugin-icons": "^0.7.4",
     "unplugin-vue-components": "^0.14.6",
     "vite": "^2.4.4",
+    "vite-plugin-mkcert": "^1.5.2",
     "vite-plugin-pages": "^0.17.3",
+    "vite-plugin-pwa": "^0.11.3",
+    "vite-plugin-vue-layouts": "^0.5.0",
     "vite-plugin-windicss": "^1.2.7",
-    "vue-tsc": "^0.2.2"
+    "vue-tsc": "^0.2.2",
+    "windicss": "^3.2.1"
   }
 }

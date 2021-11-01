@@ -4,12 +4,16 @@
 declare module 'vue' {
   export interface GlobalComponents {
     HelloWorld: typeof import('C:/Web Projects/template-vue/src/components/HelloWorld.vue')['default']
+    'IBx:bxMoon': typeof import('~icons/bx/bx-moon')['default']
+    'IBx:bxSun': typeof import('~icons/bx/bx-sun')['default']
     'IFileIcons:windi': typeof import('~icons/file-icons/windi')['default']
     'IIon:imagesSharp': typeof import('~icons/ion/images-sharp')['default']
     'IMdi:bookOpenPageVariant': typeof import('~icons/mdi/book-open-page-variant')['default']
     'INoto:pineapple': typeof import('~icons/noto/pineapple')['default']
     'IVscodeIcons:fileTypeTypescriptOfficial': typeof import('~icons/vscode-icons/file-type-typescript-official')['default']
     'IVscodeIcons:fileTypeVite': typeof import('~icons/vscode-icons/file-type-vite')['default']
+    Spinner: typeof import('./Users/arminmeyer/projects/personal/template-vue/src/components/Spinner.vue')['default']
+    ToggleDark: typeof import('./Users/arminmeyer/projects/personal/template-vue/src/components/ToggleDark.vue')['default']
   }
 }
 

@@ -1,6 +1,9 @@
 <template>
-  <div id="about">
-    About
+  <div
+    id="blank"
+    class="text-8xl text-center"
+  >
+    BLANK
   </div>
 </template>
 
@@ -12,5 +15,5 @@
 
 <route lang="yaml">
 meta:
-  layout: default
+  layout: blank
 </route>
